@@ -1,162 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam_Zakob</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
+
 <body>
-    <header>
-        <div>
-            <a href="/"><img src="./images/adam-logo.svg" alt="Sayt logosi"  width="40px" height="40px"></a>
-            <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
+    <header class="header container">
+        <div class="header-block">
+            <a class="header-img" href="/"><img src="./images/adam-logo.svg" alt="Sayt logosi" width="40"
+                    height="40"></a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-list-item"><a class="aktiv" href="#">About</a></li>
+                    <li class="header-list-item"><a class="header-link" href="#">Services</a></li>
+                    <li class="header-list-item"><a class="header-link" href="#">Works</a></li>
+                    <li class="header-list-item"><a class="header-link" href="#">Blog</a></li>
+                </ul>
             </nav>
-            <button><img src="./images/feather_menu.svg" alt="Menu picture" width="30px" height="30px"></button>
+            <button class="header-button"><img src="./images/feather_menu.svg" alt="Menu picture" width="30"
+                    height="30"></button>
         </div>
     </header>
-    <main>
-        <section>
-            <div>
-                <p>Hello,</p>
-                <h1> Adam Zakob</h1>
-                <p>a freelance UX Designer</p>
-                <button>Let’s Talk</button>
+    <!-- Main -->
+    <main class="main">
+        <section id="hero" class="main-section container ">
+            <div class="main-div">
+                <p class="hello">Hello,</p>
+                <h1 class="adam-zakob"> Adam Zakob</h1>
+                <p class="designer">a freelance UX Designer</p>
+                <a class="talk-link" href="#">Let’s Talk</a>
             </div>
-            <div>
-                <img src="./images/user-image.png" alt="Adam photo" width="535px" height="622px">
+            <div class="block-img">
+                <img class="div-picture" src="./images/user-image.png" alt="Adam photo" width="535" height="622">
             </div>
         </section>
-        <section>
-            <h2 style="font-size: 18px;"><a href="#">Services</a> </h2>
-            <hr width="50px">
-            <h3>What  actually 
-                I love to do</h3>
-            <ul>
-                <li>
-                    <img src="./images/phone.svg" alt="little phone" width="62px" height="68px">
-                    <h4>UX Research</h4>
-                    <p>New demos are continually added and buying a single license for Mak gives you access to all of
+        <!-- Services -->
+        <section class="services-section container">
+            <p><a class="services-link" href="#">Services</a> </p>
+            <hr class="services-hr">
+            <h2 class="services-title">What actually
+                I love to do</h2>
+            <ul class="services-list">
+                <li class="services-list-item">
+                    <div class="services-div">
+                        <img class="services-img" src="./images/phone.svg" alt="little phone" width="62" height="68">
+                        <h3 class="services-ux">UX Research</h3>
+                    </div>
+                    <p class="services-paragraph">New demos are continually added and buying a single license for Mak
+                        gives you access to all of
                         what's shown below, plus everything that will be added in the future.</p>
                 </li>
-                <li>
-                    <img src="./images/wifi-picture.svg" alt="little wifi" width="62px" height="68px">
-                    <h4>Brand Design</h4>
-                    <p>New demos are continually added and buying a single license for Mak gives you access to all of
+                <li class="services-list-item">
+                    <div class="services-div">
+                        <img class="services-img" src="./images/wifi-picture.svg" alt="little wifi" width="62"
+                            height="68">
+                        <h3 class="services-ux">Brand Design</h3>
+                    </div>
+                    <p class="services-paragraph">New demos are continually added and buying a single license for Mak
+                        gives you access to all of
                         what's shown below, plus everything that will be added in the future.</p>
                 </li>
-                <li>
-                    <img src="./images/list-picture.svg" alt="list picture" width="62px" height="68px">
-                    <h4>Web Development</h4>
-                    <p>New demos are continually added and buying a single license for Mak gives you access to all of
+                <li class="services-list-item">
+                    <div class="services-div">
+                        <img class="services-img" src="./images/list-picture.svg" alt="list picture" width="62"
+                            height="68">
+                        <h3 class="services-ux">Web Development</h3>
+                    </div>
+                    <p class="services-paragraph">New demos are continually added and buying a single license for Mak
+                        gives you access to all of
                         what's shown below, plus everything that will be added in the future.</p>
                 </li>
             </ul>
         </section>
-        <section>
-            <div>
+        <!-- Portfolio -->
+        <section class="portfolio container">
+            <div class="portfolio-div">
                 <div>
-                    <h2 style="font-size: 18px;"><a href="#">Portfolio</a></h2>
-                    <hr width="50px">
-                    <h3>All Creative 
-                        Projects</h3>
+                    <p><a class="services-link" href="#">Portfolio</a></p>
+                    <hr class="services-hr">
+                    <h2 class="services-title creative ">All Creative
+                        Projects</h2>
                 </div>
-                <div>
-                    <p>Explore More</p>
-                    <img src="./images/strelka(2).svg" alt="Ko'rsatkich rasmi" width="24px" height="24px">
-                </div>
-                <div>
-                    <img src="./images/Rectangle 5.png" alt="Picture" width="540px" height="427px">
-                    <img src="./images/Rectangle 6.png" alt="Picture" width="540px" height="427px">
+                <div class="explore">
+                    <p> <a class="portfolio-more" href="">Explore More</a></p>
+                    <img class="portfolio-picture" src="./images/strelka(2).svg" alt="Ko'rsatkich rasmi" width="24"
+                        height="24">
                 </div>
             </div>
+            <div class="portfolio-block">
+                <img class="portfolio-right" src="./images/Rectangle5.png" alt="Picture" width="540" height="427">
+                <img class="portfolio-left" src="./images/Rectangle6.png" alt="Picture" width="540" height="427">
+            </div>
         </section>
-        <section>
-            <h2 style="font-size: 18px;"> <a href="">Clients</a> </h2>
-            <hr width="50px">
-            <h3>Big Deal
-                With</h3>
-            <ul>
-                <li><img src="./images/slack.png" alt="Slack photo" width="170px" height="170px"></li>
-                <li><img src="./images/medium.png" alt="medium photo" width="170px" height="170px"></li>
-                <li><img src="./images/microsoft.png" alt="microsoft picture" width="170px" height="170px"></li>
-                <li><img src="./images/zeplin.png" alt="zeplin picture" width="170px" height="170px"></li>
-                <li><img src="./images/shopify.png" alt="shopify photo" width="170px" height="170px"></li>
+        <!-- Clients -->
+        <section class="section-clients container">
+            <p><a class="services-link" href="">Clients</a> </p>
+            <hr class="services-hr">
+            <h2 class="services-title clients-title">Big Deal
+                With</h2>
+            <ul class="clients-list">
+                <li class="clients-list-item"><a class="clients-link" href="#" target="_blank"><img class="clients-img"
+                            src="./images/slack.png" alt="Slack photo" width="170" height="170"></a></li>
+                <li class="clients-list-item"><a class="clients-link" href="#" target="_blank"><img class="clients-img"
+                            src="./images/medium.png" alt="medium photo" width="170" height="170"></a></li>
+                <li class="clients-list-item"><a class="clients-link" href="#" target="_blank"><img class="clients-img"
+                            src="./images/microsoft.png" alt="microsoft picture" width="170" height="170"></a></li>
+                <li class="clients-list-item"><a class="clients-link" href="#" target="_blank"><img class="clients-img"
+                            src="./images/zeplin.png" alt="zeplin picture" width="170" height="170"></a></li>
+                <li class="clients-list-item"><a class="clients-link" href="#" target="_blank"><img class="clients-img"
+                            src="./images/shopify.png" alt="shopify photo" width="170" height="170"></a></li>
             </ul>
         </section>
-        <section>
-            <h2 style="font-size: 18px;" ><a href="#">Testimonials</a></h2>
-            <hr width="50px" >
-            <h3>What People
-                Says</h3>
-            <span>
-                <img src="./images/Mask Group.png" alt="Mask rasmi" width="70px" height="70px">
-                <img src="./images/MaskGroup(1).png" alt=" Mask rasmi" width="70px" height="70px"> 
-            </span>
-            <div>
-                <img src="./images/qo'shtirnoq.svg" alt="Qo'shtirnoq rasmi" width="42px" height="42px">
-                <blockquote>Quote testimonials demonstrate support for your product or feature from a user who has experience with it. This can be significantly more effective than traditional advertising methods as most consumers will trust.</blockquote>
-                <img src="./images/AdamPicture.png" alt="John picture" width="98px" height="108px">
-                <p>Michal John</p>
-                <p>CEO of MZP</p>
-                <img src="./images/pager.svg" alt="dot.photo" width="160px" height="10px">
+        <!-- Testimonials -->
+        <section class="section-test container">
+            <p><a class="services-link" href="#">Testimonials</a></p>
+            <hr class="services-hr">
+            <h2 class="services-title test-title">What People
+                Says</h2>
+            <div class="test-div">
+                <span class="cross-picture-right">
+                    <img class="picture-right" src="./images/MaskGroup.png" alt="Mask rasmi" width="70" height="70">
+                    <img class="picture-left" src="./images/MaskGroup(1).png" alt=" Mask rasmi" width="70" height="70">
+                </span>
+                <div class="center-div">
+                    <img class="quatation-marks" src="./images/qo'shtirnoq.svg" alt="Qo'shtirnoq rasmi" width="42"
+                        height="42">
+                    <blockquote class="center-text">Quote testimonials demonstrate support for your product or feature
+                        from a user who has
+                        experience with it. This can be significantly more effective than traditional advertising
+                        methods as
+                        most consumers will trust.</blockquote>
+                    <img class="center-img" src="./images/AdamPicture.png" alt="john picture" width="98" height="108">
+                    <p class="center-name">Michal John</p>
+                    <p class="center-jobs">CEO of MZP</p>
+                    <img class="center-dots" src="./images/pager.svg" alt="dot.photo" width="160" height="10">
+                </div>
+                <span class="cross-picture-left">
+                    <img class="right-picture" src="./images/mark.png" alt="mark picture" width="70" height="70">
+                    <img class="left-picture" src="./images/laura.png" alt="girl photo" width="70" height="70">
+                </span>
             </div>
-            <span>
-                <img src="./images/laura.png" alt="girl photo" width="70px" height="70px">
-                <img src="./images/mark.png" alt="Mark picture" width="70px" height="70px">
-            </span>
         </section>
-        <section>
-            <div>
-                <h2 style="font-size: 18px;" ><a href="#">Blog</a></h2>
-                <hr width="50px" >
-                <h3>Get News
-                    Feeds</h3>
+        <!-- Blog -->
+        <section id="blog" class="container">
+            <div class="big-div">
+                <div class="blog-div">
+                    <p><a class="services-link" href="#">Blog</a></p>
+                    <hr class="services-hr">
+                    <h2 class="services-title  blog-title">Get News
+                        Feeds</h2>
+                </div>
+                <div class="blog-div-img">
+                    <div class="blog-list">
+                        <img class="" src="./images/Rectangle13.jpg" alt="picture" width="350" height="233">
+                        <div class="blog-item-in">
+                            <span class="list-time">20 June/2020</span>
+                            <p class="blog-texts">Technology is evolving rapidly. New devices and applications.</p>
+                        </div>
+                    </div>
+                    <div class="blog-list">
+                        <img class="blog-list-img" src="./images/Rectangle14.png" alt="picture" width="255"
+                            height="350">
+                        <div class="blog-item-inner">
+                            <span class="blog-list-time">20 June/2020</span>
+                            <p class="blog-text">New devices and applications come to the market.</p>
+                        </div>
+                    </div>
+                    <div class="blog-list">
+                        <img class="blog-list-img" src="images/Rectangle15.jpg" alt="picture" width="255" height="350">
+                        <div class="blog-item-inner">
+                            <span class="blog-list-time">20 June/2020</span>
+                            <p class="blog-text">Every day providing solutions to problems.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./images/Rectangle13.jpg" alt="Picture" width="350px" height="233px">
-                <time style="color: cornflowerblue;" >20 June/2020</time>
-                <p>Technology is evolving rapidly. New devices and applications.</p>
+        </section>
+        <!-- Contact_me -->
+        <section id="contact" class="section-contact  container">
+            <p><a class="services-link" href="#">Contact Me</a></p>
+            <hr class="services-hr">
+            <div class="contact-block">
+                <h2 class="contact-title services-title">Let me know if you want to talk
+                    about a potential collaboration.
+                    I'm available for freelance work.</h2>
+                <a class="contact-link" href="#">infoname@mail.com</a>
             </div>
-            <div>
-                <img src="./images/Rectangle 14.png" alt="Picture" width="255px" height="350px">
-                <time style="color: cornflowerblue;" >20 June/2020</time>
-                <p>New devices and applications come to the market.</p>
-                <img src="./images/Rectangle 14.png" alt="Picture" width="255px" height="350px">
-                <time style="color: cornflowerblue;" >20 June/2020</time>
-                <p>Every day providing solutions to problems.</p>
+            <form class="form" action="#">
+                <input type="text" placeholder="What’s your name?" required>
+                <input type="email" placeholder="Your email" required>
+                <input type="text" placeholder="Tell me about your project" required>
+            </form>
+            <div class="div-finally">
+                <span><a class="contact-button" href="#">Get a Quote</a></span>1
+                <div class="div-little">
+                    <img class="contact-right" src="./images/teenyicons_attach-solid.svg" alt="solid picture" width="17"
+                        height="18">
+                    <img class="contact-left" src="./images/bi_arrow-right-short.svg" alt="strelka" width="30"
+                        height="30">
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <h2 style="font-size: 18px;"><a href="#">Contact Me</a></h2>
-        <hr width="50px">
-        <div>
-            <h3>Let me know if you want to talk 
-                about a potential collaboration.
-                I'm available for freelance work.</h3>
-            <a href="#">infoname@mail.com</a>
-        </div>
-        <p>What’s your name?</p>
-        <p>Your email</p>
-        <p>Tell me about your project</p>
-        <div>
-            <button>Get a Quote</button>
-            <img src="./images/teenyicons_attach-solid.svg" alt="solid picture" width="17px" height="18px">
-            <img src="./images/bi_arrow-right-short.svg" alt="strelka" width="30px" height="30px">
-        </div>
-        <div>
-            <p>Let’s be Friends</p>
-            <a href="#"><img src="./images/ball.png" alt="Ball photo" width="50px" height="50px"></a> 
-            <a href="#"><img src="./images/insta.png" alt="Instagram picture" width="50px" height="50px"></a> 
-            <a href="#"><img src="./images/linkedin.png" alt="Linkedin picture" width="50px" height="50px"></a> 
+    <!-- footer -->
+    <footer id="footer" class="container">
+        <div class="footer-div">
+            <p class="footer-title">Let's be Friends</p>
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#"><img class="footer-img" src="./images/ball.png" alt="Ball photo"
+                            width="50" height="50"></a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#"><img class="footer-img" src="./images/insta.png"
+                            alt="Instagram picture" width="50" height="50"></a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link" href="#"><img class="footer-img" src="./images/linkedin.png"
+                            alt="Linkedin picture" width="50" height="50"></a>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
+
 </html>
