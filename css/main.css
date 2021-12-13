@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 1237px;
+  width: 1110px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,7 +42,6 @@ body {
 
 .header-link {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #25202F;
@@ -53,10 +52,8 @@ body {
 .aktiv {
   color: #000;
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  /* color: #25202F; */
   padding-left: 50px;
 }
 
@@ -83,7 +80,6 @@ body {
 
 
 .hello {
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
@@ -93,7 +89,6 @@ body {
 }
 
 .adam-zakob {
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   font-weight: bold;
@@ -105,7 +100,6 @@ body {
 
 .designer {
   margin-bottom: 50px;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
@@ -114,7 +108,6 @@ body {
 
 .talk-link {
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 60px;
@@ -138,7 +131,6 @@ body {
 
 .services-link {
   font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: #8643DC;
@@ -157,7 +149,6 @@ body {
   margin-top: 27px;
   width: 246px;
   height: 96px;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -189,7 +180,6 @@ body {
 }
 
 .services-ux {
-  font-style: normal;
   font-weight: 500px;
   font-size: 24px;
   line-height: 32px;
@@ -214,7 +204,6 @@ body {
 }
 
 .portfolio-more {
-  font-style: normal;
   font-weight: 500px;
   font-size: 18px;
   line-height: 25px;
@@ -296,7 +285,6 @@ body {
 
 .center-text {
   margin-top: 20px;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
@@ -313,7 +301,6 @@ body {
 }
 
 .center-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -323,7 +310,6 @@ body {
 
 .center-jobs {
   margin-top: 5px;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
@@ -374,7 +360,6 @@ body {
 
 .list-time {
   margin-top: 20px;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -384,7 +369,6 @@ body {
 }
 
 .blog-list-time {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 21px;
@@ -393,7 +377,6 @@ body {
 
 .blog-texts {
   margin-top: 10px;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
@@ -402,7 +385,6 @@ body {
 
 .blog-text {
   margin-top: 10px;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
@@ -445,7 +427,6 @@ body {
 
 .contact-title {
   margin-top: 20px;
-  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 52px;
@@ -455,8 +436,6 @@ body {
 }
 
 .contact-link {
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-decoration-line: underline;
@@ -466,7 +445,6 @@ body {
 
 .contact-button {
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 60px;
@@ -517,7 +495,6 @@ body {
 }
 
 .footer-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 48px;
