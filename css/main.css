@@ -1,6 +1,6 @@
 body {
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Mulish', 'Arial', sans-serif;
+  font-family: 'Red Hat Display', 'Arial', sans-serif;
 }
 
 * {
@@ -18,10 +18,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 65px;
+ 
 }
 
-.header-img {
+.div-nav{
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo{
   width: 40px;
   height: 40px;
 }
@@ -67,11 +74,6 @@ body {
   box-shadow: 0 0px 10px 5px rgba(198, 185, 233, 0.3);
 }
 
-
-.main-section .container {
-  display: flex;
-}
-
 .main-section {
   display: flex;
   justify-content: space-between;
@@ -79,16 +81,16 @@ body {
 }
 
 
-.hello {
+.main-caption {
   font-weight: 500;
   font-size: 24px;
   line-height: 120%;
   color: #666;
   margin-bottom: 10px;
-  margin-top: 123px;
+   margin-top: 123px; 
 }
 
-.adam-zakob {
+.main-subject {
   font-weight: 500;
   font-size: 40px;
   font-weight: bold;
@@ -119,7 +121,7 @@ body {
   height: 60px;
 }
 
-.div-picture {
+.block-picture {
   width: 535px;
   height: 622px;
   margin-top: -70px;
@@ -129,7 +131,7 @@ body {
   margin-top: 150px;
 }
 
-.services-link {
+.main-all-link {
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
@@ -138,7 +140,7 @@ body {
   margin-top: 150px;
 }
 
-.services-hr {
+.main-all-hr {
   width: 50px;
   height: 2px;
   background: #8643DC;
@@ -179,7 +181,7 @@ body {
 
 }
 
-.services-ux {
+.services-heading {
   font-weight: 500px;
   font-size: 24px;
   line-height: 32px;
@@ -203,7 +205,7 @@ body {
   align-items: center;
 }
 
-.portfolio-more {
+.portfolio-more-link {
   font-weight: 500px;
   font-size: 18px;
   line-height: 25px;
@@ -294,7 +296,7 @@ body {
   height: 85px;
 }
 
-.center-img {
+.center-avatar{
   margin-top: 50px;
   width: 98px;
   height: 108px;
@@ -342,12 +344,12 @@ body {
   margin-top: 67px;
 }
 
-.left-picture {
+.left-userpic{
   width: 70px;
   height: 70px;
 }
 
-.right-picture {
+.right-userpic{
   margin-left: -60;
   margin-bottom: -200px;
   width: 70px;
@@ -356,6 +358,7 @@ body {
 
 .blog-item-inner {
   margin-top: -100px;
+  margin-right: 10px;
 }
 
 .list-time {
@@ -427,6 +430,7 @@ body {
 
 .contact-title {
   margin-top: 20px;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 52px;
@@ -436,6 +440,7 @@ body {
 }
 
 .contact-link {
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-decoration-line: underline;
@@ -443,7 +448,7 @@ body {
   color: #8643DC;
 }
 
-.contact-button {
+.div-finally-link{
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
@@ -461,6 +466,10 @@ body {
   flex-direction: column;
 }
 
+.input-text{
+font-size: 20px;
+
+}
 .form input {
   margin-top: 54px;
   padding: 17px 0;
@@ -486,8 +495,6 @@ body {
 .contact-right {
   margin-right: 16px;
 }
-
-.contact-left {}
 
 .footer-div {
   margin-top: 150px;
